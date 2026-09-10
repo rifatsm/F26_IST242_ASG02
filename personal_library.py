@@ -45,6 +45,7 @@ def display_menu():
 def main():
     display_menu()
 
-
+# __name__ dunder method ensure the main is executed when the file is ran 
+# but not when it is imported library
 if __name__ == "__main__":
     main()
