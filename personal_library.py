@@ -23,8 +23,27 @@ Limitations (intentional, to motivate Layer 2)
 These limitations are exactly why the project moves on to Layer 2.
 """
 
+def display_menu():
+    """Display the main menu options for the Personal Library Manager.
+
+    This menu is invoked by the main function on entry point, grabs an input later in the main function,
+    and forwards to that execution by other functions
+
+    Parameters:
+        None
+    Returns:
+        None
+    """
+    print("\n========== Personal Library Manager =========")
+    print("Please select an option:")
+    print("1. Add a book title")
+    print("2. Remove a book")
+    print("3. List all book titles")
+    print("4. Search a book title")
+    print("5. Exit")
+
 def main():
-    print("Testing entry point")
+    display_menu()
 
 
 if __name__ == "__main__":
