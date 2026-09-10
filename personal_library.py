@@ -22,3 +22,10 @@ Limitations (intentional, to motivate Layer 2)
 
 These limitations are exactly why the project moves on to Layer 2.
 """
+
+def main():
+    print("Testing entry point")
+
+
+if __name__ == "__main__":
+    main()
